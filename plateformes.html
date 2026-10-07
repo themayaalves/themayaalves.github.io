@@ -24,7 +24,7 @@
   </div>
 
   <nav class="links" aria-label="Plateformes">
-    <a class="btn btn-reveal" href="https://www.reveal.me/mayaalves/fhw7di">
+    <a class="btn btn-reveal" id="reveal-link" href="https://www.reveal.me/mayaalves/fhw7di">
       <span class="btn-left">
         <img class="btn-icon" src="reveal.png" alt="" width="48" height="48">
         <span class="btn-label">Reveal</span>
@@ -42,5 +42,8 @@
   </nav>
 
 </main>
+<script>
+(function(){var c={insta:'r6g7ty',reddit:'4cadsh',pin:'e8763t'};var r=new URLSearchParams(location.search).get('r');if(!r){try{r=sessionStorage.getItem('r')}catch(e){}}r=(r||'').toLowerCase();var a=document.getElementById('reveal-link');if(a&&c[r])a.href='https://www.reveal.me/mayaalves/'+c[r]})();
+</script>
 </body>
 </html>
